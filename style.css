@@ -193,7 +193,7 @@ main {
 
 .fixed_img {
   position: fixed;
-  right: 48px;
+  right: 40px;
   top: 80%;
   cursor: pointer;
 }
@@ -387,6 +387,12 @@ strong {
     height: auto;
   }
 
+  .fixed_img{
+    top: 66%;
+    right: 10px;
+  }
+
+
   footer {
     padding: 10px 5%;
   }
@@ -466,9 +472,9 @@ strong {
     display: none;
   } */
 
-  .fixed_img {
-    right: 15px;
-    bottom: 15px;
+  .fixed_img{
+    top: 64%;
+    right: 0px;
   }
 
   .fixed_item{
@@ -477,7 +483,7 @@ strong {
 
   .fixed_item {
     right: -120px;
-    top: 70%;
+    top: 50%;
   }
 
   .gyani h2 {
@@ -512,7 +518,12 @@ strong {
     font-size: 10px;
       position: fixed;
         right: -125px;
-        top: 70%;
+        top: 50%;
+  }
+
+  .fixed_img{
+    top: 67%;
+    right: 0px;
   }
 
 
