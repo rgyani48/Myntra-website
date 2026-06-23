@@ -14,6 +14,11 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
+html{
+    scroll-behavior:smooth;
+}
+
 header {
   background-color: #fff;
   position: fixed;
@@ -44,6 +49,11 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   color: #52576c;
+}
+
+.option a:hover{
+    color:#ff3f6c;
+    transition:.3s;
 }
 
 .option a sup {
@@ -152,18 +162,19 @@ main {
 }
 
 .fixed_item {
-  position: fixed; /* Fixes the element */
-  right: -121px; /* Adjust according to width after rotation */
-  top: 60%; /* Center vertically */
-  transform: rotate(-90deg);
-  height: 47px;
-  width: 290px;
-  background-color: #535766;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 2px;
-  cursor: pointer;
+  position: fixed;
+    right: -127px;
+    top: 60%;
+    transform: rotate(-90deg);
+    /* height: 47px; */
+    /* width: 290px; */
+    background-color: #535766;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 2px 25px;
 }
 
 .off {
@@ -451,17 +462,26 @@ strong {
     padding-top: 20px;
   }
 
-  .fixed_item {
+  /* .fixed_item {
     display: none;
-  }
+  } */
 
   .fixed_img {
     right: 15px;
     bottom: 15px;
   }
 
+  .fixed_item{
+    font-size: 12px;
+  }
+
+  .fixed_item {
+    right: -120px;
+    top: 70%;
+  }
+
   .gyani h2 {
-    font-size: 70px;
+    font-size: 55px;
   }
 }
 
@@ -487,6 +507,22 @@ strong {
   .first_container, .second_container, .third_container{
     width: 100%;
   }
+
+   .fixed_item{
+    font-size: 10px;
+      position: fixed;
+        right: -125px;
+        top: 70%;
+  }
+
+
+
+
+   main {
+        padding-top: 200px; /* adjust as needed */
+    }
+
+
   footer {
     padding: 10px;
   }
@@ -513,7 +549,8 @@ strong {
     align-items: center;
   }
 
+
   .gyani h2 {
-    font-size: 55px;
+    font-size: 45px;
   }
 }
