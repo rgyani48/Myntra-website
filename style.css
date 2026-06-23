@@ -468,23 +468,23 @@ strong {
     padding-top: 20px;
   }
 
-  /* .fixed_item {
+  .fixed_item {
     display: none;
-  } */
+  }
 
   .fixed_img{
     top: 75%;
     right: 0px;
   }
 
-  .fixed_item{
+  /* .fixed_item{
     font-size: 12px;
   }
 
   .fixed_item {
     right: -120px;
     top: 60%;
-  }
+  } */
 
   .gyani h2 {
     font-size: 55px;
@@ -513,20 +513,6 @@ strong {
   .first_container, .second_container, .third_container{
     width: 100%;
   }
-
-   /* .fixed_item{
-    font-size: 10px;
-      position: fixed;
-        right: -125px;
-        top: 50%;
-  } */
-
-  /* .fixed_img{
-    top: 67%;
-    right: 0px;
-  } */
-
-
 
 
    main {
